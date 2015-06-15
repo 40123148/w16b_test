@@ -12,7 +12,7 @@ import os
 # 導入 random 模組
 import random
 # 導入 gear 模組
-#import gear
+import man2
 
 ################# (2) 廣域變數設定區
 # 確定程式檔案所在目錄, 在 Windows 下有最後的反斜線
@@ -111,7 +111,7 @@ application_conf = {'/static':{
     }
     
 root = Midterm()
-#root.gear = gear.Gear()
+root.man2 = man2.MAN()
 
 if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
     # 表示在 OpenSfhit 執行
